@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        background-color: rgb(53, 164, 101);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    nav h2{
+        color: aliceblue;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0px 5px;
+    }
+    nav ul li a{
+        color: whitesmoke;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    input{
+        width: 500px;
+    }
+    #b a{
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+    }
+    :placeholder-shown{
+        height: 30px;
+        border-radius: 10px;
+    }
+    .a{
+        margin: 3%;
+        position: relative;
+    }
+    footer{
+           
+           background: rgb(53, 164, 101);
+           height: auto;
+           width: 100vw;
+           font-family: "open Sans";
+           padding-top: 40px;
+           color: whitesmoke;
+       }
+       .footer-content{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           text-align: center;
+       }
+       .footer-content h3{
+           font-size: 1.8rem;
+           font-weight: 400;
+           text-transform: capitalize;
+       }
+       .footer-content p{
+           max-width: 500px;
+           margin: 10px auto;
+           line-height: 28px;
+           font-size: 14px;
+       }
+       .socials{
+           list-style: none;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin: 1rem 0 3rem 0;
+       }
+       .socials li{
+           margin: 0 10px;
+       }
+       .socials a{
+           text-decoration: none;
+           color: #fff;
+       }
+       .socials a i{
+           font-size: 1.1rem;
+           transition: color .4s ease;
+       }
+       .socials a:hover i{
+           color: rgb(19, 43, 14);
+       }
+       .footer-bottom{
+           background: rgb(53, 164, 101);
+           width: 100vw;
+           padding: 20px 0;
+           text-align: center;
+       }
+       .footer-bottom p{
+           font-size: 14px;
+           word-spacing: 2px;
+           text-transform: capitalize;
+       }
+       .footer-bottom span{
+           text-transform: uppercase;
+           opacity: .4;
+           font-weight: 200;
+       }
+
+</style>
+    </head>
+    <body>
+        <nav>
+            <h2>onlineSOS</h2>
+            <div class="searchbox">
+            <input type="text" list="input" placeholder="Search Here">
+            <datalist id="input">
+                <option value="peanuts">Peanut</option>
+                <option value="Tree Nuts">Tree Nuts</option>
+                <option value="Milk">Milk</option>
+                <option value="Eggs">Eggs</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Shellfish">Shellfish</option>
+                <option value="Soyabean">Soyabean</option>
+                <option value="Butter">Butter</option>
+            </datalist>
+            </div>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Front.html#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Queries</a></li>
+                <li><a href="http://127.0.0.1:5500/feedback.html">Feedback</a></li>
+                <li id="b"><a href="http://127.0.0.1:5500/login.html#">Log In</a></li>
+            </ul>
+        </nav><br><br><br>
+        <div class="a">
+            <img src="images (1).jpeg" alt="applepie" width="1590" height="650">
+            <h2 style="text-align: center;color: rgb(32, 32, 84)">Apple pie</h2>
+            <br><br>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 gluten-free pie crust*</li>
+                <li>5-6 Gala apples, peeled, cored, and sliced</li>
+                <li>3 tablespoons lemon or lime juice</li>
+                <li>⅓ cup date sugar</li>
+                <li>1/4 cup maple sugar*</li>
+                <li>2 tablespoons maple syrup</li>
+                <li>⅓ cup flour (we used oat flour to keep it gluten-free) (click here for options)</li>
+                <li>1 tablespoon ground cinnamon</li>
+                <li>2 tablespoons oil</li>
+            </ul><br>
+            <h4>Notes :</h4>
+            <ul>
+                <li>You can make an extra pie crust to top the pie with. We left ours open.*</li>
+                <li>You can use coconut sugar if you prefer.**</li>
+            </ul><br>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Preheat oven to 425 degrees F.</li>
+                <li>Carefully roll out the pie crust and gently press it into a greased pie dish, allowing excess to hang over the edge. Cover lightly with plastic wrap and stick it in the fridge to chill.</li>
+                <li>In a large bowl, toss the apple slices with lemon or lime juice.</li>
+                <li>Add the sugars, syrup, flour, and cinnamon to the bowl and toss to coat. Allow apples to sit for about 5 to 10 minutes in the sugar and spice mixture so that they release more juices.</li>
+                <li>Spoon the apple filling into the chilled pie crust-lined pie dish.</li>
+                <li>Decorate the top of the pie with the remaining crust as desired.</li>
+                <li>Brush the oil lightly around the edge of the pie.  </li>
+                <li>Bake for 30 to 35 minutes, or until the top is golden brown and juices are bubbling.  </li>
+                <li>Let cool for at least 30 minutes.</li>
+            </ol>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <h3>onlineSOS</h3>
+                    <p>onlineSOS's mission is to improve the quality of life and the health of individuals as well as the assessment and management of food allergen risks to protect people with food allergies and provide them hope through the promise of new trearments. </p>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2023 onlineSOS. designed by <span>TheCoders</span></p>
+                </div>
+            </footer>
+            </body>
+            </html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        background-color: rgb(53, 164, 101);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    nav h2{
+        color: aliceblue;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0px 5px;
+    }
+    nav ul li a{
+        color: whitesmoke;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    input{
+        width: 500px;
+    }
+    #b a{
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+    }
+    :placeholder-shown{
+        height: 30px;
+        border-radius: 10px;
+    }
+    .a{
+        margin: 3%;
+        position: relative;
+    }
+    footer{
+           
+           background: rgb(53, 164, 101);
+           height: auto;
+           width: 100vw;
+           font-family: "open Sans";
+           padding-top: 40px;
+           color: whitesmoke;
+       }
+       .footer-content{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           text-align: center;
+       }
+       .footer-content h3{
+           font-size: 1.8rem;
+           font-weight: 400;
+           text-transform: capitalize;
+       }
+       .footer-content p{
+           max-width: 500px;
+           margin: 10px auto;
+           line-height: 28px;
+           font-size: 14px;
+       }
+       .socials{
+           list-style: none;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin: 1rem 0 3rem 0;
+       }
+       .socials li{
+           margin: 0 10px;
+       }
+       .socials a{
+           text-decoration: none;
+           color: #fff;
+       }
+       .socials a i{
+           font-size: 1.1rem;
+           transition: color .4s ease;
+       }
+       .socials a:hover i{
+           color: rgb(19, 43, 14);
+       }
+       .footer-bottom{
+           background: rgb(53, 164, 101);
+           width: 100vw;
+           padding: 20px 0;
+           text-align: center;
+       }
+       .footer-bottom p{
+           font-size: 14px;
+           word-spacing: 2px;
+           text-transform: capitalize;
+       }
+       .footer-bottom span{
+           text-transform: uppercase;
+           opacity: .4;
+           font-weight: 200;
+       }
+
+</style>
+    </head>
+    <body>
+        <nav>
+            <h2>onlineSOS</h2>
+            <div class="searchbox">
+            <input type="text" list="input" placeholder="Search Here">
+            <datalist id="input">
+                <option value="peanuts">Peanut</option>
+                <option value="Tree Nuts">Tree Nuts</option>
+                <option value="Milk">Milk</option>
+                <option value="Eggs">Eggs</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Shellfish">Shellfish</option>
+                <option value="Soyabean">Soyabean</option>
+                <option value="Butter">Butter</option>
+            </datalist>
+            </div>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Front.html#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Queries</a></li>
+                <li><a href="http://127.0.0.1:5500/feedback.html">Feedback</a></li>
+                <li id="b"><a href="http://127.0.0.1:5500/login.html#">Log In</a></li>
+            </ul>
+        </nav><br><br><br>
+        <div class="a">
+            <img src="Funfetti-Ice-Cream-Cone-Cupcakes-2-2-480x480.jpg" alt="Funfetti Ice Cream Cone Cupcakes" width="1590" height="650">
+            <h2 style="text-align: center;color: rgb(32, 32, 84)">Funfetti Ice Cream Cone Cupcakes</h2>
+            <br><br>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>2 cups flour (gluten free with xanthan gum or regular)*</li>
+                <li>1 teaspoon baking soda</li>
+                <li>½ teaspoon salt</li>
+                <li>¾ cup sugar</li>
+                <li>½ cup canola or vegetable oil</li>
+                <li>1 ½ teaspoon lemon juice</li>
+                <li>1 teaspoon vanilla</li>
+                <li>½ cup mashed banana or applesauce</li>
+                <li>1 cup water</li>
+                <li>Sprinkles </li>
+                <li>10 cake style ice cream cones </li>
+            </ul><br>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Preheat the oven to 350 degrees.</li>
+                <li>Mix all dry ingredients together first, then add wet ingredients.</li>
+                <li>Stir desired amount of sprinkles into batter.</li>
+                <li>Fill cake cones with batter just below the top of the cone.</li>
+                <li>Bake for 15 - 20 minutes, or until toothpick comes out dry. </li>
+                <li>Let cool.</li>
+                <li>If you want the chocolate and vanilla swirl effect, place chocolate and vanilla icing into two separate frosting (or sandwich sized plastic) bags.</li>
+                <li>Cut the corners of the first two bags and place both into third cut bag. Make sure corners are aligned so icing can squeeze out equally from chocolate and vanilla bags.  </li>
+                <li>Squeeze icing and swirl on top of cupcake until desired effect is reached. </li>
+                <li>Enjoy! </li>
+            </ol>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <h3>onlineSOS</h3>
+                    <p>onlineSOS's mission is to improve the quality of life and the health of individuals as well as the assessment and management of food allergen risks to protect people with food allergies and provide them hope through the promise of new trearments. </p>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2023 onlineSOS. designed by <span>TheCoders</span></p>
+                </div>
+            </footer>
+            </body>
+            </html>

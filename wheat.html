@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        background-color: rgb(53, 164, 101);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    nav h2{
+        color: aliceblue;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0px 5px;
+    }
+    nav ul li a{
+        color: whitesmoke;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    input{
+        width: 500px;
+    }
+    #b a{
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+    }
+    :placeholder-shown{
+        height: 30px;
+        border-radius: 10px;
+    }
+    .ab{
+        position: relative;
+        
+    }
+    .abc{
+        display: flex;
+    }
+    .b{
+        margin: 5px;
+        padding: 5px;
+    }
+    footer{
+           
+           background: rgb(53, 164, 101);
+           height: auto;
+           width: 100vw;
+           font-family: "open Sans";
+           padding-top: 40px;
+           color: whitesmoke;
+       }
+       .footer-content{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           text-align: center;
+       }
+       .footer-content h3{
+           font-size: 1.8rem;
+           font-weight: 400;
+           text-transform: capitalize;
+       }
+       .footer-content p{
+           max-width: 500px;
+           margin: 10px auto;
+           line-height: 28px;
+           font-size: 14px;
+       }
+       .socials{
+           list-style: none;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin: 1rem 0 3rem 0;
+       }
+       .socials li{
+           margin: 0 10px;
+       }
+       .socials a{
+           text-decoration: none;
+           color: #fff;
+       }
+       .socials a i{
+           font-size: 1.1rem;
+           transition: color .4s ease;
+       }
+       .socials a:hover i{
+           color: rgb(19, 43, 14);
+       }
+       .footer-bottom{
+           background: rgb(53, 164, 101);
+           width: 100vw;
+           padding: 20px 0;
+           text-align: center;
+       }
+       .footer-bottom p{
+           font-size: 14px;
+           word-spacing: 2px;
+           text-transform: capitalize;
+       }
+       .footer-bottom span{
+           text-transform: uppercase;
+           opacity: .4;
+           font-weight: 200;
+       }
+
+    </style>
+    </head>
+    <body>
+        <nav>
+    <h2>onlineSOS</h2>
+    <div class="searchbox">
+    <input type="text" list="input" placeholder="Search Here">
+    <datalist id="input">
+        <option value="peanuts">Peanut</option>
+        <option value="Tree Nuts">Tree Nuts</option>
+        <option value="Milk">Milk</option>
+        <option value="Eggs">Eggs</option>
+        <option value="Wheat">Wheat</option>
+        <option value="Shellfish">Shellfish</option>
+        <option value="Soyabean">Soyabean</option>
+        <option value="Butter">Butter</option>
+    </datalist>
+    </div>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/Front.html#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Queries</a></li>
+        <li><a href="http://127.0.0.1:5500/feedback.html">Feedback</a></li>
+        <li id="b"><a href="http://127.0.0.1:5500/login.html#">Log In</a></li>
+    </ul>
+</nav>
+<br><br><br>
+<div class="ab">
+<img src="images.jpeg" alt="wheat" width="1920" height="510">
+<h2 style="position: absolute;font-size: 80px;top: 17px;left: 20px;"><ins>Wheat</ins></h2>
+<p style="position: absolute;font-size: 30px;top:99px;left: 30px;font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(48, 11, 11);">There are many store-bought wheat substitute options, but make sure to read your labels!</p>
+</div><br><br>
+<div class="container">
+<h2 style="color: rgb(32, 32, 84);text-align: center;font-size: 50px;">There are many store-bought wheat substitute options, but make sure to read your labels!</h2><br>
+<h5>Wheat-free and gluten-free diets are not the same. Gluten is a sticky protein that makes baked goods stretch and pull apart. Make sure you understand your exact sensitivity — if you're only allergic to wheat, you might be able to eat rye and spelt. However, if you have celiac disease, a wheat-free product could still trigger your symptoms. Thankfully, there are many wheat-free and gluten-free options in your grocery store.  
+    For home cooking, try alternative flours, such as tapioca, rice, oat, and almond. Pure cornmeal and potato starch are also wheat-free. </h5>
+
+<br><br><br>
+<h2 style="color: rgb(32, 32, 84);text-align: center;font-size: 50px;">Test out our receipes using substitutes</h2><br>
+<div class="abc">
+    <div class="b">
+<a href="http://127.0.0.1:5500/cornbread.html">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="download.jpeg" alt="cornbread">
+      <div class="card-body">
+          <h3 style="text-align: center;">Corn Bread</h3>
+        </a>
+    </div>
+</div>
+</div>
+<div class="b">
+        <a href="http://127.0.0.1:5500/onionbhaji.html">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="download (1).jpeg" alt="onionbhaji">
+              <div class="card-body">
+                  <h3 style="text-align: center;">Onion Bhaji</h3>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="b">
+                <a href="http://127.0.0.1:5500/applepie.html">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="images (1).jpeg" alt="applepie">
+                      <div class="card-body">
+                          <h3 style="text-align: center;">Apple Pie</h3>
+                        </a>
+                    </div></div>
+                </div>
+                <div class="b">
+                    <a href="http://127.0.0.1:5500/spicecake.html">
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="download (2).jpeg" alt="spicecake">
+                          <div class="card-body">
+                              <h3 style="text-align: center;">Spice Cake</h3>
+                            </a>
+                        </div></div>
+                    </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>onlineSOS</h3>
+                <p>onlineSOS's mission is to improve the quality of life and the health of individuals as well as the assessment and management of food allergen risks to protect people with food allergies and provide them hope through the promise of new trearments. </p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2023 onlineSOS. designed by <span>TheCoders</span></p>
+            </div>
+        </footer>
+    </body>
+</html>
